@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nicolas Fabre - Software development]]></title><description><![CDATA[Nicolas Fabre - Software development]]></description><link>https://nfabredev.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 30 Dec 2020 23:26:56 GMT</lastBuildDate><item><title><![CDATA[👋 About]]></title><description><![CDATA[Hi, my name is Nicolas Fabre. I started to get into programming after finishing my master’s degree in geography and working in Aix-en…]]></description><link>https://nfabredev.com/about/</link><guid isPermaLink="false">https://nfabredev.com/about/</guid><pubDate>Thu, 28 May 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Hi, my name is Nicolas Fabre.&lt;/p&gt;
+&lt;p&gt;I started to get into programming after finishing my master’s degree in geography and working in Aix-en-Provence, France, at the regional planning and urbanism institute as a cartographic engineer.&lt;/p&gt;
+&lt;p&gt;After free-lancing for few months with the folks at &lt;a href=&quot;https://www.ohmydevs.fr/equipe/&quot;&gt;OhMyDevs!&lt;/a&gt;, I decided to
+look for an experience in a company that would present me with new challenges to overcome.&lt;/p&gt;
+&lt;p&gt;I interned &amp;#x26; worked at &lt;a href=&quot;https://www.boaterfly.com/en&quot;&gt;Boaterfly&lt;/a&gt; to work on its web application for a boat rental marketplace.&lt;/p&gt;
+&lt;p&gt;I then started to work on projects for Boaterfly’s parent company, &lt;a href=&quot;https://www.dreamyachtcharter.com/&quot;&gt;Dream Yacht Charter&lt;/a&gt;. There I built a search engine for boat rentals 🔍⛵️.&lt;/p&gt;
+&lt;p&gt;Today I can be found in Helsinki, working on the &lt;a href=&quot;https://www.relexsolutions.com/solutions/workforce-optimization-software/&quot;&gt;RELEX Workforce optimization software&lt;/a&gt;, using Elixir with Phoenix, NodeJS and React among others.&lt;/p&gt;
+&lt;h3&gt;ℹ️ More Information&lt;/h3&gt;
+&lt;p&gt;In my free time I enjoy reading about creative coding, data visualizations and software architecture, and going on all kind of outdoor adventures ! 🌲&lt;/p&gt;
+&lt;h3&gt;📬 Drop me a line !&lt;/h3&gt;
+&lt;p&gt;You can contact me &lt;a href=&quot;https://twitter.com/nfabredev&quot;&gt;@nfabredev&lt;/a&gt; on Twitter.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Terminal magic]]></title><description><![CDATA[Computers are awesome ! And the more you work with them, the more magic you can learn. It’s really like learning to cast spells. Sometime…]]></description><link>https://nfabredev.com/terminal-magic/</link><guid isPermaLink="false">https://nfabredev.com/terminal-magic/</guid><pubDate>Fri, 15 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Computers are awesome ! And the more you work with them, the more magic you can learn. It’s really like learning to cast spells. Sometime you find out some new command, or some new library that does something you didn’t even think was possible and you get blown away at how is that even possible.&lt;/p&gt;
+&lt;p&gt;Some of these are collected here for reference:&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/rupa/z&quot;&gt;z - jump around&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;After installing and using &lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt; to move around your directories like you usually do, z builds for you a small database of your most accessed directories and their path. Once that’s done - and I mean this is done everything you use &lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt; - you can then use &lt;code class=&quot;language-text&quot;&gt;z&lt;/code&gt; instead of &lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt; and only type a part of the path to magically jump there, even in nested directories. For example, if you have the following file structure:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;~/
+  ├── work
+  │   └── project1
+  │   └── project2
+  └── perso
+      └── project3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;you can then just type &lt;code class=&quot;language-text&quot;&gt;z 3&lt;/code&gt; to go to &lt;code class=&quot;language-text&quot;&gt;~/perso/project3&lt;/code&gt;. And it works really well.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/nvbn/thefuck&quot;&gt;thefuck&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This can be seen as a gadget but considering the pain it is to retype a command, or copy paste its correct suggestion from the output - why not install this and forget about it until you need it:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;~/
+❯ nide
+zsh: command not found: nide
+# here you can either type in `fuck` or press esc. key two times
+~/
+❯ node # appears by magic 🧙‍♂️&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt; reverse-i-search&lt;/h3&gt;
+&lt;p&gt;Just press ctrl+R in your terminal and get yourself some full text search of your command history. Very useful for recurrent commands that you don’t want to alias because they are contextual. &lt;/p&gt;
+&lt;h3&gt;aliases&lt;/h3&gt;
+&lt;p&gt;You can check your most used commands by using:
+&lt;code class=&quot;language-text&quot;&gt;history|awk &amp;#39;{print $2, $3}&amp;#39;|awk &amp;#39;BEGIN {FS=&amp;quot;|&amp;quot;} {print $1}&amp;#39;|sort|uniq -c|sort -n&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This should give you some ideas about the most frequently used commands that you could alias to something. I actually mostly alias git commands in my &lt;a href=&quot;https://github.com/nfabredev/.dotfiles/blob/master/.gitconfig&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;.gitconfig&lt;/code&gt;&lt;/a&gt; but you can also add aliases to your bash for more convenience&lt;/p&gt;</content:encoded></item><item><title><![CDATA[VSCode extensions]]></title><description><![CDATA[Here’s a list of my top VSCode extensions and which features they have that make them a must have: Bracket pair colorizer: it’s all in the…]]></description><link>https://nfabredev.com/top-vscode-extensions/</link><guid isPermaLink="false">https://nfabredev.com/top-vscode-extensions/</guid><pubDate>Sun, 10 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Here’s a list of my top VSCode extensions and which features they have that make them a must have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/CoenraadS/BracketPair&quot;&gt;Bracket pair colorizer&lt;/a&gt;: it’s all in the title, but honestly can’t live without having every parentheses, curly or square bracket colorized in a different way. Makes missing a closing parentheses impossible&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/JakeKantzer/vscode-case-sensitive-add-next&quot;&gt;Case-Sensitive Add Next Occurrence&lt;/a&gt;: when you work with multi-cursor selection and want to select NextOccurence but not nextoccurence. Combine this with the String Manipulation extension and let the magic happen.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/egonyans/vscode-ext-color-highlight&quot;&gt;Color highlight&lt;/a&gt;: superpower that lets you highlight color codes with the actual color they represent, so you can tell which one of #38cdf2 or #2a93ad is a darker blue.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vsls-contrib/gistpad&quot;&gt;GistPad&lt;/a&gt;: turn your gists into your favorite note taking app, supports any filetypes, embeds images and comment on gists.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eamodio/vscode-gitlens&quot;&gt;GitLens&lt;/a&gt;: commit with a GUI, diff file per file, staging line by line, check the list of past commits and the changes they brought. Great to pick out a commit ID for a quick fixup.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/MicrosoftDocs/live-share&quot;&gt;Live Share&lt;/a&gt;: absolute life saver when it comes to remote pair coding, so you can invite a friend over your workspace, edit files, debug and serve your app or run terminal commands together on your computer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ChristianKohler/PathIntellisense&quot;&gt;Path intellisense&lt;/a&gt;: make those import strings aware of your directory structure so you can’t mistype an import path anymore.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marclipovsky/vscode-string-manipulation&quot;&gt;String manipulation&lt;/a&gt;: big time saver to switch between different casing of strings like PascalCase, camelCase, kebab-case, snake_case, the aptly named SCREAMING_SNAKE_CASE and others..&lt;/li&gt;
+&lt;li&gt;There’s plenty of good themes and icon options for VSCode and everyone has different taste when it comes to that but some big hits for me were: &lt;a href=&quot;https://github.com/robb0wen/synthwave-vscode&quot;&gt;SynthWave 84’&lt;/a&gt;, &lt;a href=&quot;https://github.com/ahmadawais/shades-of-purple-vscode&quot;&gt;Shades of Purple&lt;/a&gt; and the &lt;a href=&quot;https://github.com/PKief/vscode-material-icon-theme&quot;&gt;Material Icon Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tell me about yours !&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What I use]]></title><description><![CDATA[Give me six hours to chop down a tree and I will spend the first four sharpening the axe. － Abraham Lincoln Let’s kick off this blog with a…]]></description><link>https://nfabredev.com/uses/</link><guid isPermaLink="false">https://nfabredev.com/uses/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Give me six hours to chop down a tree and I will spend the first four sharpening the axe.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;－ Abraham Lincoln&lt;/p&gt;
+&lt;p&gt;Let’s kick off this blog with a list of the tools I use and value in my everyday work. It’s worth spending some time configuring your tools so that you can get the most value out of them. This page also plays the role of a living guide for myself when I need to setup a new development environment. After having to set this up, like, 4 time in the past year, I decided to write this down and automate this as much as I can.&lt;/p&gt;
+&lt;h3&gt;Hardware:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Computer&lt;/strong&gt;: MacBook Pro 13-inch, 2019, 2,8 GHz Quad-Core Intel Core i7, 16 GB of RAM and a SSD of 500 Gb&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Screen&lt;/strong&gt;: Samsung 4K 28” U28R55&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keyboard&lt;/strong&gt; and mouse: Magic Keyboard and Magic trackpad 2&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Headphones&lt;/strong&gt;: still looking for a nice headset, ping me for your recommendations. Currenlty using Ticpods Free or Sennheiser Momentum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ereader&lt;/strong&gt;: Kobo Libra H2O for reading.&lt;/p&gt;
+&lt;h3&gt;Software:&lt;/h3&gt;
+&lt;p&gt;Some of the noteworthy pieces of software that I use (almost) everyday:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.iterm2.com/&quot;&gt;Iterm 2&lt;/a&gt; with &lt;a href=&quot;https://www.zsh.org/&quot;&gt;Zsh&lt;/a&gt;, &lt;a href=&quot;https://ohmyz.sh/&quot;&gt;Oh My ZSH&lt;/a&gt; to manage the configuration, and the &lt;a href=&quot;https://github.com/sindresorhus/pure&quot;&gt;pure&lt;/a&gt; prompt.&lt;/p&gt;
+&lt;p&gt;VSCode with plenty of nice extensions, check this article about my favs &lt;a href=&quot;https://nfabredev.com/top-vscode-extensions&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/amphetamine/id937984704?mt=12&quot;&gt;Amphetamine&lt;/a&gt;, to use the computer with the lid closed, handy at work with a dual monitor setup.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://brave.com/&quot;&gt;Brave browser&lt;/a&gt; for its privacy features&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://calibre-ebook.com/&quot;&gt;Calibre&lt;/a&gt; to manage my e-books&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://justgetflux.com/news/pages/mac/&quot;&gt;f.lux&lt;/a&gt; to manage the color of my screen according to the time of the day&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12&quot;&gt;FlyCut&lt;/a&gt; as a clipboard manager&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.keka.io/en/&quot;&gt;Keka&lt;/a&gt; for compressing and decompressing every type of format (eg.: 7-zip on mac)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;Notion&lt;/a&gt; for flexible and shared notes that can be arranged to do nearly anything you wish&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://rectangleapp.com/&quot;&gt;Rectangle&lt;/a&gt; as a replacement to the loved &lt;a href=&quot;https://www.spectacleapp.com/&quot;&gt;Spectacle&lt;/a&gt; for window management.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/soroushchehresa/unsplash-wallpapers&quot;&gt;Unsplash Wallpapers&lt;/a&gt; for fresh desktop backgrounds&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://matthewpalmer.net/vanilla/&quot;&gt;Vanilla&lt;/a&gt; to manage the menu bar real estate&lt;/p&gt;
+&lt;h3&gt;Setting up a new computer&lt;/h3&gt;
+&lt;p&gt;So now the qustion is: How to re-install all of these applications, plus many others, including development dependencies, runtimes, databases management sytems, all kind of binaries without spending hours on it ?&lt;/p&gt;
+&lt;p&gt;I’m using a not-so-new-anymore feature that landed in &lt;a href=&quot;https://brew.sh/&quot;&gt;Brew&lt;/a&gt;, which is the &lt;a href=&quot;https://docs.brew.sh/Manpage#bundle-subcommand&quot;&gt;bundle&lt;/a&gt; command.&lt;/p&gt;
+&lt;p&gt;Use &lt;code class=&quot;language-text&quot;&gt;brew bundle dump&lt;/code&gt; to dump all your installed dependencies in a Brewfile, then check the list and add any missing application.
+To do that you can use &lt;code class=&quot;language-text&quot;&gt;brew search&lt;/code&gt; for any applications - eg.: &lt;code class=&quot;language-text&quot;&gt;brew search 1password&lt;/code&gt;.
+For applications distributed on the App Store use &lt;a href=&quot;https://github.com/mas-cli/mas&quot;&gt;mas cli&lt;/a&gt;. Use &lt;code class=&quot;language-text&quot;&gt;mas list&lt;/code&gt; and then add these to your Brewfile.
+Once your Brewfile is created you’ll only need to install brew and run &lt;code class=&quot;language-text&quot;&gt;brew bundle&lt;/code&gt; to setup up all you apps.&lt;/p&gt;
+&lt;p&gt;Now how to bring this file, and your dotfiles, on a new computer ? I personally version them in Github, and then symlink them in my home. You can create a simple bash script to do that. Check the latest version of these files &lt;a href=&quot;https://github.com/nfabredev/.dotfiles&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I use a signed in browser profile with Google Chrome which syncs my browser extensions.&lt;/p&gt;
+&lt;p&gt;VSCode settings are synced with &lt;a href=&quot;https://code.visualstudio.com/docs/editor/settings-sync&quot;&gt;Setting Sync&lt;/a&gt; native feature in the &lt;a href=&quot;https://code.visualstudio.com/insiders/&quot;&gt;insider release&lt;/a&gt; and / or with &lt;a href=&quot;https://github.com/shanalikhan/code-settings-sync&quot;&gt;Settings Sync&lt;/a&gt; MarketPlace extension in the regular release that saves everything to github gists.&lt;/p&gt;
+&lt;p&gt;Passwords, ssh keys and plenty of stuff is managed using &lt;a href=&quot;https://1password.com/&quot;&gt;1Password&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pictures, documents go on iCloud.&lt;/p&gt;
+&lt;p&gt;That’s about it for now, I’ll update this as my practice change. What about you ?&lt;/p&gt;</content:encoded></item></channel></rss>
