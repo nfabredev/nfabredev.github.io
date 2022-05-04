@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-about-jsx",
+    "path": "/about/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Nicolas Fabre - Software development"}},"allFile":{"edges":[{"node":{"childMarkdownRemark":{"html":"<p>Hi, I'm Nicolas.</p>\n<p>I can be found in Helsinki, working at <a href=\"https://www.relexsolutions.com/\">RELEX</a> when I'm not kayaking or walking around in the nature.</p>\n<p>I like to create great developer experiences, starting from the development environment all the way to full stack apps that solve operational bottlenecks.</p>\n<h3>📬 Drop me a line !</h3>\n<p>You can contact me <a href=\"https://twitter.com/nfabredev\">@nfabredev</a> on Twitter.</p>","fields":{"slug":"/about/"},"frontmatter":{"date":"May 28, 2020","title":"👋 About","description":"About Nicolas Fabre, software developer"}}}}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383","3716362928"]}
